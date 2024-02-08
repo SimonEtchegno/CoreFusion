@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+body{
+    overflow-x: hidden;
+    width: 100% !important;
+
+}
+
+.navbar-nav{
+  margin-left: auto;
+
+}
+
+.logo{
+  position: relative;
+  bottom: 5px;
+}
+.navbar{
+  height: 100%;
+}
+
+.navbar-toggler{
+  width: 60px;
+}
+.nav-link{
+  font-weight:600 !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 20px;
+}
+
+.nav-link:hover{
+  color: cadetblue !important;
+}
+.navFijo{
+  background-color: #40606f;
+  height: 100px;
+}
+
+.home{
+    background-image: url(../recursos/parallax2.jpg);
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100% !important; 
+}
+
+.containertextosParallax{  
+    position: relative;
+    top: 100px;
+}
+
+.containerButton{
+    display: flex;
+    justify-content: start;
+    padding-top: 50px;
+}
+
+.buttonInfo{
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px ;
+    background-color: #40606f;    
+    border: 0px rgb(245, 245, 245);
+    animation-name: pulse;
+    animation: pulse 2s 3s ease-out infinite;
+    transition-delay:1.9s;
+    color: #fff;
+}
+
+@keyframes pulse {
+    0% {
+      opacity: 1;
+      transform: none;
+    }
+    50% {
+      opacity: .9;
+      transform: scale(.8);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+
+.textoParallaxIndex{
+    font-weight: 700;
+    line-height: 140%;
+    color:  rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-family:sans-serif;
+}
+
+.imgParallax{
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 400px;
+}
+
+
+.tituloSection{
+    position: relative;
+    top: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.tituloPrincipal--section{
+    color: cadetblue;
+}
+
+
+.containerInformacion{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 400px;
+}
+
+.seccionImg{
+    position: relative;
+    bottom: 80px;
+}
+
+
+.imgSection{
+    margin-left: 100px;
+    margin-top: 400px;
+    border-radius: 30px;
+    width: 80%;
+
+}
+
+.containerFotoSection{
+  display: flex;
+  justify-content: right;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    filter: blur(50%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100% !important; 
+    height: 1000px;
+}
+
+.principiosH2{
+  margin-top: 30px;
+  font-size: 20px;
+  color: cadetblue;
+}
+
+.containerMarcas {
+    margin-top: 250px;
+    margin-left: 40px !important;
+    width: 100%;   
+}
+
+.containerMarcasBG{
+    background-color: rgba(184, 184, 184, 0.11);
+   position: relative;
+   bottom: 150px;
+}
+
+.containerMarcas img {
+    width: 50%;
+}
+
+.containerMarcas .row{
+    width: 100%;
+}
+
+.containerMarcasPos{
+  position: relative;
+  left: 40px;
+}
+
+
+
+  .fa {
+    margin-right: 5px;
+  }
+  
+  div span {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  div span {
+    display: block;
+    margin-bottom: 5px;
+    color: #007bff;
+  }
+  
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+.tituloServicio{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 50px;
+  color:#000000d3;
+  font-weight: bold;
+}
+
+.tituloService{
+  font-size: 20px;
+  color: cadetblue;
+  text-transform: uppercase;
+}
+
+.imgService{
+  vertical-align:bottom;  
+}
+
+.containerServicios{
+  margin-top: 100px;
+  margin-bottom: 300px;
+ max-width: 1700px !important;
+}
+
+.containerServicios p{
+ margin-top: 20px;
+ font-family: 'Poppins', sans-serif;
+ font-family: 'PT Serif', serif;
+ font-size: 17px;
+}
+
+
+.containerService{
+  margin-bottom: 100px;
+}
+
+
+hr{
+  display: flex !important;
+  margin: auto !important;
+  margin-bottom: 50px !important;
+  width: 500px !important;
+}
+
+.hr2{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.hr{
+  width: 60%;
+  margin-top:150px !important ;
+}
+
+.hrEdit{
+  width: 80%;
+}
+.parrafoCita{
+  font-size: 30px !important;
+}
+
+.personaCita{
+  color: cadetblue;
+}
+
+.c{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.titleContacto{
+  font-size: 40px;
+  padding-top: 50px;
+  color: cadetblue;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+  
+.container__Contact{
+  height: 830px;
+  position: relative;
+  left: 40px;
+}
+
+.contactoNumero{
+  font-size: 25px;
+  padding: 20px;
+  position: relative;
+  bottom: 10px;
+  list-style: none;
+  text-decoration: none;  
+  color: black;
+}
+
+.c{
+  position: relative;
+  bottom: 100px;
+}
+.contactoNumero:hover{
+  color: #695545;
+}
+
+#submitButton{
+  background-color: cadetblue;
+  border-radius: 50px 50px;
+  height: 65px;
+}
+
+.containerCelular{
+  position: relative;
+  bottom: 40px;
+  left: 50px;
+}
+
+.fotoContacto{
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.fotoContainer{
+  display: flex;
+  justify-content: right;
+  position: relative;
+  bottom: 50px;
+}
+
+
+
+hr.divider {
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+ 
+}
+
+.bi-phone::before {
+  content: "\f4e7"; 
+}
+
+[class^="bi-"]::before, [class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  
+  color: rgb(81, 119, 121);
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+
+
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background: rgb(32, 52, 53);
+}
+
+.containerFooter{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    color: white;
+}
+
+
+  .containerForm{
+    width: 100%;
+    position: relative;
+    height: 700px;
+    margin-top: 10px;
+  }
+
+  .logoFooter{
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width:1000px)  {
+
+
+.navFijo{
+  height: 100%;
+}
+
+.navbar-toggler:hover{
+  background-color: #40606f !important;
+}
+
+.logo{
+  float: left !important;
+}
+
+.buton:hover{
+  background-color: cadetblue !important;
+}
+
+.home{
+  background-image: url(../recursos/parallax2.jpg);
+  height: 800px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100% !important; 
+}
+
+    .seccionImg{
+      width: 100% !important;
+  
+    }
+    .imgSection{
+      width: 300px;
+      padding: auto;
+      margin: auto;
+      position: relative;
+      top: 400px;
+    }
+
+
+.body{
+  overflow-x: hidden;
+  width: 100% !important;
+
+}
+    .containerMarcas img{
+      width: 100%;
+    }
+
+    .containerMarcas{
+      width: 200px !important;
+      margin: 0% !important;
+    }
+
+    .containerMarcasBG{
+        margin-top: 700px !important;
+        display: flex;
+        justify-content: center !important;
+        
+    }
+
+    .containerMarcasPos{
+      position: relative;
+      left: 0;
+    }
+
+
+   
+    .textoParallaxIndex{
+      font-size: 1.5rem;
+    }
+
+    .containerService{
+      margin-bottom: 100px;
+    }
+
+    .containerServicios{
+      max-width: 1000px;
+    }
+
+  hr{
+    display: flex !important;
+    margin: auto !important;
+    margin-bottom: 40px !important;
+    width: 200px !important;
+  }
+
+    hr.divider {
+      max-width: 3.25rem;
+      margin: 1.5rem auto;
+     
+    }
+
+    .fotoContacto{
+      display: none;
+    }
+
+    .c{
+     position: relative;
+     right: 40px;
+    
+    }
+    .containerCelular{
+      display: none;
+    }
+  footer{
+  
+    background: rgba(0, 0, 0, 0.836);
+}
+
+.containerFooter{
+   
+    color: white;
+}
+
+.textFooter{
+  margin-bottom: 30px;
+}
+
+.logoFooter{
+  margin-bottom: 50px;
+}
+
+  }
+
