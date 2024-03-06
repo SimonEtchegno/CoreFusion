@@ -302,6 +302,10 @@ section{
 }
 
 /*INICIO CITA*/
+.citaContainer{
+  margin-top: 200px;
+}
+
 hr{
   display: flex !important;
   margin: auto !important;
