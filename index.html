@@ -56,8 +56,11 @@
                
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">   
-                <a href="index.html"><button class="botonEspaniol"><img src="recursos/españa.png" width="25px" alt=""></button></a>
-            <a href="en/ingles.html"><button class="botonIngles"><img src="recursos/estados-unidos.png" width="25px" alt=""></button></a>                             
+                <div class="banderas "data-aos="fade-right" data-aos-duration="1000">
+                  <a href="index.html"><button class="botonEspaniol"><img src="recursos/españa.png" width="25px" alt=""></button></a>
+                  <a href="en/ingles.html"><button class="botonIngles"><img src="recursos/estados-unidos.png" width="25px" alt=""></button></a>      
+                </div>
+                                      
                 <a class="nav-link" href="">Inicio</a>
                 <a class="nav-link" href="#nosotros"> Nosotros</a>
                <!--<a class="nav-link" href="#marcas">Nuestras Marcas</a>--> 
@@ -221,8 +224,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12 text-center">
-          <p class="parrafoCita">“ Trabajar con CoreFusion fue <br> muy profesional y la mejor decisión que <br> hemos
-            tomado hasta ahora en una empresa de <br> TI. "</p>
+          <p class="parrafoCita" id="maquina-escribir4"></p>
         </div>
         <div class="col-lg-12">
           <p class="text-center personaCita">— KRISTIAN IGARAVIDEZ, LEY RUBENSTEIN</p>
@@ -249,7 +251,7 @@
           <form name="frmContacto" id="contactForm">
             <form action="contact.php" method="POST">
               <div class="form-floating mb-3">
-                <input class="form-control" id="name" type="text" name="name" placeholder="Nombre y Apellido"
+                <input class="form-control" id="name" type="text" name="nombre" placeholder="Nombre y Apellido"
                   required="" />
                 <label for="name">Nombre completo</label>
               </div>
@@ -274,7 +276,8 @@
               </div>
 
               <div class=" justify-content-center buttonContact"><button class="btn btn-primary" id="submitButton"
-                  type="submit">Enviar</button></div>
+                  type="submit">Enviar</button>
+              </div>
             </form>
         </div>
 
@@ -304,19 +307,19 @@
         </div> 
       	<div class="row ">
           <div class="Redes col-lg-12">
-            <a  target="_blank" href=""><img  class="Redes__img-footer Redes__img-facebook" data-aos="fade-right"data-aos-duration="1000" src="recursos/facebook.png"  width="40"  ></a>
+            <a  target="_blank" href=""><img  class="Redes__img-footer Redes__img-facebook"data-aos="zoom-in" data-aos-duration="1000" src="recursos/facebook.png"  width="40"  ></a>
   
-            <a target="_blank" href=""><img class="Redes__img-footer Redes__img-instagram" data-aos="fade-right"data-aos-duration="1000"   src="recursos/instagram.png"  width="40"
+            <a target="_blank" href=""><img class="Redes__img-footer Redes__img-instagram" data-aos="zoom-in" data-aos-duration="1000"   src="recursos/instagram.png"  width="40"
              alt="logo-sitio web"></a>
         
-             <a target="_blank" href="" ><img class="Redes__img-footer img-whatsapp" data-aos="fade-right"data-aos-duration="1000" src="recursos/whatsapp.png" alt="Whatsapp" width="40"></a>
+             <a target="_blank" href="" ><img class="Redes__img-footer img-whatsapp" data-aos="zoom-in"data-aos-duration="1000" src="recursos/whatsapp.png" alt="Whatsapp" width="40"></a>
             
           </div>		
           <div class="derechosReservados">
-            <p class="text-center">© 2024 All Rights Reserved | Powered by CoreFusion</p>
+            <p class="text-center"data-aos="zoom-in" data-aos-duration="1200">© 2024 All Rights Reserved | Powered by CoreFusion</p>
           </div>   	
           <div class="creador">
-            <p class="text-center">Developed By Simón Etchegno</p>
+            <p class="text-center"data-aos="zoom-in"data-aos-duration="1300">Developed By Simón Etchegno</p>
           </div>
         </div>                  
       </div> 

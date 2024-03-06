@@ -1,7 +1,4 @@
-.my-atropos {
-  width: 320px;
-  height: 160px;
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -48,6 +45,13 @@ body{
   position: relative;
   bottom: 5px;
 }
+
+
+.banderas{
+  display: flex;
+}
+
+
 .navbar{
   height: 100%;
 }
@@ -56,9 +60,9 @@ body{
   width: 60px;
 }
 .nav-link{
-  font-weight:600 !important;
+  font-weight:500 !important;
   color: rgb(0, 0, 0) !important;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   position: relative;
   top: 5px;
@@ -299,11 +303,16 @@ section{
 
 .containerRazone{
   margin-bottom: 100px;
+  max-width: 650px !important;
 }
 
 /*INICIO CITA*/
 .citaContainer{
   margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
 hr{
@@ -319,17 +328,19 @@ hr{
   margin-top: 50px;
 }
 
-.hr{
-  width: 60%;
-  margin-top:300px !important ;
-}
+
 
 .hrEdit{
   width: 80%;
 }
 .parrafoCita{
+  text-align: center;
+  width: 700px;
   font-size: 30px !important;
+  position: relative;
+  left: 250px;
 }
+
 
 .personaCita{
   color: cadetblue;
@@ -536,12 +547,21 @@ button {
   height: 100%;
 }
 
+.nav-link{
+  padding-bottom: 20px !important;
+}
+
 .navbar-toggler:hover{
   background-color: #40606f !important;
 }
 
 .logo{
   float: left !important;
+}
+
+.banderas{
+  display: flex;
+  justify-content: flex-end;
 }
 
 .buton:hover{
@@ -628,6 +648,16 @@ button {
       margin: 1.5rem auto;
      
     }
+
+    .parrafoCita{
+      
+      width: 400px;
+      position: relative;
+      left: 5px !important;
+      font-size: 20px !important;
+     
+    }
+    
 
     .citaContainer{
       margin-top: 200px;
