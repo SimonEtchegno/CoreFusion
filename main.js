@@ -29,6 +29,6 @@ const maquinaEscribir4 = (text = '',tiempo = 200, etiqueta = '') => {
 
   const letra = "";
 
-  maquinaEscribir4( '"Trabajar con CoreFusion fue muy profesional y la mejor decisión que  hemos tomado  hasta ahora en una empresa de TI."' ,100, maquina4);
+  maquinaEscribir4( '"Trabajar con CoreFusion fue muy profesional y la mejor decisión que  hemos tomado  hasta ahora en una empresa de TI."' ,60, maquina4);
 
 
