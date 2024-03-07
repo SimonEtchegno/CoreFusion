@@ -61,7 +61,7 @@ body{
 }
 .nav-link{
   font-weight:500 !important;
-  color: rgb(0, 0, 0) !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 15px;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   position: relative;
@@ -112,6 +112,7 @@ body{
 
 }
 
+
 @keyframes pulse {
     0% {
       opacity: 1;
@@ -128,6 +129,11 @@ body{
   }
 
 
+  .buttonInfo:hover{
+    color: cadetblue;
+  }
+
+  
 .textoParallaxIndex{
     font-weight: 500;
     line-height: 140%;
@@ -169,8 +175,8 @@ body{
 .imgSection{
     margin-left: 100px;
     margin-top: 400px;
-    border-radius: 30px;
-    width: 80%;
+   
+    width: 100%;
 
 }
 
@@ -189,11 +195,27 @@ section{
     height: 1000px;
 }
 
-.principiosH2{
+.principios1{
   margin-top: 30px;
   font-size: 20px;
-  color: cadetblue;
+  color: #fd7301;
 }
+
+
+.principios2{
+  margin-top: 30px;
+  font-size: 20px;
+  color: #7dd858;
+}
+
+
+
+.principios3{
+  margin-top: 30px;
+  font-size: 20px;
+  color: #21b0fc;
+}
+
 
 .containerMarcas {
     margin-top: 250px;
@@ -277,21 +299,52 @@ section{
   color:cadetblue;
 }
 
-.tituloService{
+.tituloService1{
   font-size: 20px;
-  color: cadetblue;
+  color: #fd7301;
   text-transform: uppercase;
 }
+
+.tituloService2{
+  font-size: 20px;
+  color: #21b0fc;
+  text-transform: uppercase;
+}
+
+.tituloService3{
+  font-size: 20px;
+  color: #7dd858;
+  text-transform: uppercase;
+}
+
+.tituloService4{
+  font-size: 20px;
+  color: #21b0fc;
+  text-transform: uppercase;
+}
+
+.tituloService5{
+  font-size: 20px;
+  color: #7dd858;
+  text-transform: uppercase;
+}
+
+.tituloService6{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fd7301;
+
+}
+
 
 .imgService{
   vertical-align:bottom;  
 }
 
 .containerRazones{
-  padding-top: 100px;
   margin-top: 100px;
   margin-bottom: 300px;
-  max-width: 1700px !important;
+  max-width: 1600px !important;
 }
 
 .containerRazones p{
@@ -309,9 +362,6 @@ section{
 /*INICIO CITA*/
 .citaContainer{
   margin-top: 300px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   margin-bottom: 400px  ;
 
 }
@@ -319,7 +369,7 @@ section{
 hr{
   display: flex !important;
   margin: auto !important;
-  margin-bottom: 50px !important;
+  margin-bottom: 100px !important;
   width: 500px !important;
 }
 
@@ -413,20 +463,28 @@ form .buttonContact{
 
 .containerCelular{
   position: relative;
-  bottom: 80px;
+  bottom: 50px;
   left: 50px;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 15px;
 }
 
 .containerDireccion{
-  position: relative;
-  bottom: 40px;
+ display: flex !important;
+ left: 70px;
+ position: relative;
+ bottom: 80px;
 }
 
+.mapGif{
+  position: relative;
+  bottom: 10px;
+  padding-right: 10px;
+}
+
+
 .fotoContacto{
-  border-radius: 10px;
-  margin-top: 40px;
+  border-radius: 40px;
 }
 
 .fotoContainer{
@@ -584,10 +642,7 @@ button {
   
     }
     .imgSection{
-      width: 300px;
-      position: relative;
-      right: 60px;
-    
+      width: 100%;  
     }
 
 
@@ -634,8 +689,10 @@ button {
     }
 
     .containerRazones{
-      margin-top: 150px !important;
-      max-width: 1000px;
+      padding-top: 100px;
+      margin-top: 100px;
+      margin-bottom: 300px;
+      max-width: 700px !important;
     }
 
   hr{
@@ -651,19 +708,25 @@ button {
      
     }
 
+
+    .containerCita{
+      display: flex;
+      justify-content: center;
+    }
+
+
+
     .parrafoCita{
-      
-      width: 500px;
-      position: relative;
-      left: 5px !important;
+      width: 400px;
       font-size: 20px !important;
-     
+      position: relative;
+      left: 0px;
     }
     
 
     .citaContainer{
       margin-top: 200px;
-      max-width: 500px;
+      max-width: 400px;
     }
 
     .fotoContacto{
@@ -676,13 +739,26 @@ button {
     
     }
    
+    .contactoNumero{
+      margin-bottom: 30px;
+    }
+
 
     .containerCelular{
       position: relative;
       top: 20px;
-      left: 15px;
-      
+      left: 5px;   
     }
+
+    .p_direccionForm{
+      position: relative !important;
+      right: 70px !important;
+     }
+
+     .mapGif{
+      display: none;
+     }
+     
 
 .textFooter{
   margin-bottom: 30px;
@@ -692,6 +768,9 @@ button {
   margin-bottom: 50px;
 }
 
+.containerFooter{
+  width: 100%;
+}
 /*FIN MEDIA MOBILE*/
 
 
