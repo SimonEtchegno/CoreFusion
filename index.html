@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,15 +30,9 @@
     href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <!-- Termina Fonts -->
-
-  <!-- INICIA ANIMACION -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
-  <!-- FIN ANIMACION -->
 </head>
-
-
 <header class="home">
   <div class="container-fluid">
     <div class="row">
@@ -47,25 +40,44 @@
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid nav">
             <div class="logo">
-              <a class="logo1" href="index.html"><img src="recursos/logo.jpeg" height="100" alt="logo-sitio web"></a>
+              <a class="logo1" href="index.html"><img src="recursos/logo.png" height="100" alt="logo-sitio web"></a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
               aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-               
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">   
-                <div class="banderas "data-aos="fade-right" data-aos-duration="1000">
-                  <a href="index.html"><button class="botonEspaniol"><img src="recursos/españa.png" width="25px" alt=""></button></a>
-                  <a href="en/ingles.html"><button class="botonIngles"><img src="recursos/estados-unidos.png" width="25px" alt=""></button></a>      
+              <div class="navbar-nav">
+                <div class="idioma">
+                  <a href="index.html">
+                    <button class="botonIdioma"data-aos="fade-right" data-aos-duration="1000">
+                      <p>ENG</p>
+                    </button>
+                  </a> 
+                  <a href="es/spanish.html">
+                    <button class="botonIdioma"data-aos="fade-right" data-aos-duration="1000">
+                      <p>ESP</p>
+                    </button>
+                  </a>
                 </div>
-                                      
-                <a class="nav-link" href="">Inicio</a>
-                <a class="nav-link" href="#nosotros"> Nosotros</a>
-               <!--<a class="nav-link" href="#marcas">Nuestras Marcas</a>--> 
-               <a class="nav-link" href="#servicio">¿Por qué elegirnos?</a>
-                <a class="nav-link" href="#contacto">Contacto</a>            
+                            
+                <div class="linkNav">
+                    <div class="link">
+                     <a class="nav-link" href="#">Home</a>
+                    </div>    
+                    <div class="link">
+                      <a class="nav-link" href="#nosotros">Us</a>
+                    </div>          
+                <!--
+                <a class="nav-link" href="#marcas">our brands</a>
+                -->
+                    <div class="link">
+                      <a class="nav-link" href="#servicio">Why choose us</a>
+                    </div>
+                    <div class="link">
+                      <a class="nav-link" href="#contacto">Contact</a>
+                    </div>
+                </div>
               </div>
             </div>
           </div>
@@ -73,228 +85,218 @@
       </div>
     </div>
   </div>
-  <div class="container containertextosParallax animate__animated animate__fadeInRight ">
+  <div class="container containertextosParallax" data-aos="fade-right" data-aos-duration="1000" ">
     <div class="row">
       <div class="col-md-12 col-lg-12 col-xs-12">
-        <h1 class="textoParallaxIndex    ">Trabaje <br>inteligentemente <br> con infinitas <br>posibilidades</h1>
+        <h1 class="textoParallaxIndex  ">Work <br>intelligently <br> with  infinite <br>possibilities</h1>
         <div class="container containerButton ">
-          <a href="#nosotros"> <button class="buttonInfo">Empezar</button></a>
+          <a href="#nosotros"> <button class="buttonInfo">Start</button></a>
         </div>
       </div>
     </div>
   </div>
 </header>
+
+
 <body>
-  <section >
-    <div class="container containerInformacion" >
+  <section>
+    <div class="container containerInformacion ">
       <div class="row seccionImg">
         <div class="col-lg-6 tituloSection ">
-          <p class="tecnologiaP" id="nosotros" data-aos="fade-right" data-aos-duration="1000">TECNOLOGÍA EMPRESARIAL</p>
-          <h1 class="tituloPrincipal--section" data-aos="fade-right" data-aos-duration="1000">Tecnología <br> inteligente <br> y
-            sencilla</h1>
-          <h2 class="principios1">Misión :</h2>
-         <p class="pInformacion">CoreFusion está presente en la oferta de servicios y equipamiento asociados en en el ámbito de la tecnología,
-           con la seguridad y experiencia de ser una herramienta indispensable para la consolidación de objetivos con resultado óptimo asegurado.
-            Especialistas altamente calificados lo respaldan. Las compañías confían y descansan en esta propuesta.</p>
-          <h2 class="principios2">Visión :</h2>
-         <p class="pInformacion">CoreFusion acepta la delegación y desarrolla el desafío de las compañías al incorporar tecnología, absorbe la preocupación de la actualización
-           ante el avance tecnológico aplicado a la excelencia en su implementación. CAPACIDAD, CONOCIMIENTO, DEDICACION,
-           GESTION INTEGRAL Y ARMONICA son algunas características que respaldan su gestión.</p>
-          <h2 class="principios3">Valores :</h2>
-         <p class="pInformacion"> CoreFusionn valora, respeta, fortalece y resguarda la identidad de sus clientes. Gestiona desde el mismo lugar desde donde nace y se presenta
-           la necesidad como un desafío a consagrar con el resultado óptimo.
-           Ofrece y propone una evolución continua y su proyección a través del tiempo.</p>
+          <p data-aos="fade-right" data-aos-duration="1000" id="nosotros">ENTERPRISE TECHNOLOGY</p>
+          <h1 class="tituloPrincipal--section" data-aos="fade-right" data-aos-duration="1000">Technology <br> smart <br> and
+            simple</h1>
+          <h2 class="principios1">Mission :</h2>
+          <p class="pInformacion">
+          CoreFusion is present in the offer of services and associated equipment in the field of technology , with
+           the security and experience of being an indispensable tool for the consolidation of objectives with optimal
+            results assured. Highly qualified specialists back it up. Companies trust and rely on this proposal.</p>
+          <h2 class="principios2">Vision :</h2>
+          <p class="pInformacion">
+
+          CoreFusion accepts the delegation and develops the challenge of the companies when incorporating technology , abosorve the concern of 
+          the update before the technological advance applied to the excellence in its implementation. CAPACITY, KNOWLEDGE, DEDICATION, 
+          INTEGRAL AND HARMONIC MANAGEMENT are some of the characteristics that support its management.</p>
+          <h2 class="principios3">Values :</h2>
+          <p class="pInformacion">
+
+          CoreFusion values, respects, strengthens and safeguards the identity of its clients. It manages from the same
+           place where the need is born and is presented as a challenge to be consecrated with the best result. It
+           offers and proposes a continuous evolution and its projection through time.</p>
         </div>
 
-        <div class="col-lg-6 col-md-12 col-xs-12 containerFotoSection">
-          <img class="imgSection "  src="recursos/imgSection.png" width="550px"
-            alt="imagen_logo_seccion">
+        <div class="col-lg-6 col-md-12 col-xs-12 containerFotoSection ">
+          <img class="imgSection" src="recursos/imgSection.png" width="500px"
+            alt="">
         </div>
       </div>
     </div>
 
   </section>
 
-<!--
-  <div class="containerMarcasBG">
+ <!-- <div class="containerMarcasBG">
     <div class="container-fluid containerMarcas" id="marcas">
       <div class="containerMarcasPos">
         <div class="row">
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/dell.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/hpe.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/kingston.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/lenovo.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/logitech.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/ms.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/dell.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/hpe.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/kingston.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/lenovo.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/logitech.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/ms.png" alt=""></div>
         </div>
 
         <div class="row">
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/dell.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/hpe.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/kingston.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/lenovo.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/dell.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/hpe.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/kingston.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/lenovo.png" alt=""></div>
           <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/logitech.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/ms.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/ms.png" alt=""></div>
         </div>
 
         <div class="row">
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/dell.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/hpe.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/kingston.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/lenovo.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/logitech.png" alt=""></div>
-          <div class="col-lg-2 col-md-12 col-xs-12"><img src="recursos/ms.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/dell.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/hpe.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/kingston.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/lenovo.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/logitech.png" alt=""></div>
+          <div class="col-lg-2 col-md-12 col-xs-12"><img src="../recursos/ms.png" alt=""></div>
         </div>
       </div>
     </div>
   </div>
 -->
-  <div class="col-lg-12" id="servicio">
-    <h1 class="text-center tituloRazon" data-aos="fade-right" data-aos-duration="1000">6 Razones para elegir CoreFusion</h1>
-  </div>
+<div class="col-lg-12" id="servicio">
+  <h1 class="text-center tituloRazon" data-aos="fade-right" data-aos-duration="1000">6 Reasons to Choose CoreFusion</h1>
+</div>
 
-  <div class="container containerRazones">
-    <div class="row services1">
-      <div class="col-lg-4 containerRazone">
-        <hr><br>
-        <h2 class="tituloService1">Entregar Soluciones de Tecnología de la Información que Impulsen su Negocio</h2>
-        <p>Por eso estamos en el negocio. Para que su equipo tenga la tranquilidad de saber que sus Soluciones de Tecnología de la Información están completamente operativas; así usted puede concentrarse en dirigir su negocio, ¡NO sus computadoras!</p>
-      </div>
-
-      <div class="col-lg-4 containerRazone">
-        <hr><br>
-        <h2 class="tituloService2">Ser una Firma Comprometida que Asume Completa Responsabilidad.</h2>
-        <p>Somos completamente responsables de garantizar que la red informática de nuestro cliente esté completamente operativa.</p>
-      </div>
-
-      <div class="col-lg-4 containerRazone">
-        <hr><br>
-        <h2 class="tituloService3">Garantizar - 100% la satisfacción incondicional.</h2>
-        <p>Nuestro objetivo es convertir a todos nuestros clientes en fanáticos entusiastas de nuestra empresa que, a su vez, nos recomienden con gusto a sus asociados comerciales debido al excelente servicio y satisfacción que les proporcionamos a ellos y a sus negocios.</p>
-      </div>
+<div class="container containerRazones">
+  <div class="row services1">
+    <div class="col-lg-4 containerRazone">
+      <hr><br>
+      <h2 class="tituloService1">DELIVERING INFORMATION TECHNOLOGY SOLUTIONS THAT DRIVE YOUR BUSINESS.</h2>
+      <p>That's why we're in business. So your team can have the peace of mind knowing that your Information Technology Solutions are fully operational; allowing you to focus on running your business, NOT your computers!</p>
     </div>
 
-    <div class="row services2">
-      <div class="col-lg-4 containerRazone">
-        <hr><br>
-        <h2 class="tituloService4">Darle una Respuesta en Menos de una Hora.</h2>
-        <p>Nuestros técnicos calificados y experimentados, que pueden solucionar su problema informático, responderán su llamada de inmediato o lo harán en menos de sesenta minutos, garantizado.</p>
-      </div>
+    <div class="col-lg-4 containerRazone">
+      <hr><br>
+      <h2 class="tituloService2">BEING A COMMITTED FIRM THAT TAKES FULL RESPONSIBILITY.</h2>
+      <p>
+        We are fully responsible for ensuring that our clients' technological infrastructure is fully operational.
+      </p>
+    </div>
 
-      <div class="col-lg-4 containerRazone">
-        <hr><br>
-        <h2 class="tituloService5">Realizar Reparaciones de TI Rápidas y Completadas en un Abrir y Cerrar de Ojos.</h2>
-        <p>Su red informática y su tiempo son demasiado valiosos para pasar tiempo esperando reparaciones de computadoras. Por eso ofrecemos soporte remoto proactivo de TI y servicios de red donde nuestro objetivo es resolver el problema antes de que cause tiempo de inactividad.</p>
-      </div>
-      
-
-      <div class="col-lg-4 containerRazone">
-        <hr><br>
-        <h2 class="tituloService6">Tener Todos los Proyectos Completados a Tiempo y Dentro del Presupuesto</h2>      
-        <p>No lo sorprenderemos con cargos adicionales o ocultos mientras realizamos consultoría de TI y servicios de red. Hacemos lo correcto y no damos excusas. Su proyecto de soporte de TI se completará dentro de los límites de tiempo, recursos, alcance y presupuesto.</p>      
-      </div>
+    <div class="col-lg-4 containerRazone">
+      <hr><br>
+      <h2 class="tituloService3">GUARANTEEING 100% UNCONDITIONAL SATISFACTION.</h2>
+      <p>Our goal is to turn all our clients into enthusiastic fans of our company who, in turn, gladly recommend us to their business associates because of the excellent service and satisfaction we provide to them and their businesses.</p>
     </div>
   </div>
-    
 
-
-   
-
-
-
-   <!-- <div class="containerServicios">
-     <div class="col-lg-12" id="servicio">
-      <h1 class="text-center tituloRazon animate__animated animate__bounceInRight animate__delay-3s ">Nuestros Servicios</h1>
-    </div>
-      <ol>
-        <li>hola</li>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-      </ol>
+  <div class="row services2">
+    <div class="col-lg-4 containerRazone">
+      <hr><br>
+      <h2 class="tituloService4">PROVIDE A RESPONSE AS SOON AS POSSIBLE.</h2>
+      <p>Our qualified and experienced technicians, who can solve your computer problem, will answer your call immediately, guaranteed.</p>
     </div>
 
-    -->
+    <div class="col-lg-4 containerRazone">
+      <hr><br>
+      <h2 class="tituloService5">PERFORMING FAST IT REPAIRS AND COMPLETING THEM IN THE BLINK OF AN EYE.</h2>
+      <p>Your computer network and your time are too valuable to waste waiting for computer repairs. That's why we offer proactive remote IT support and network services where our goal is to resolve the issue before it causes downtime.</p>
+    </div>
+
+    <div class="col-lg-4 containerRazone">
+      <hr><br>
+      <h2 class="tituloService6">HAVING ALL PROJECTS COMPLETED ON TIME AND WITHIN BUDGET.</h2>
+      <p>We won't surprise you with additional or hidden charges while conducting IT consulting and network services. We do what's right and don't give excuses. Your IT support project will be completed within the boundaries of time, resources, scope, and budget.</p>
+    </div>
+  </div>
+</div>
 
 
 
-    
-    <div class="container citaContainer">
-      <div class="hr2">
-        <hr>
+ <!-- INICIO CITA
+  
+  
+  <div class="container citaContainer">
+    <div class="hr2">
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 justify-content-center">
+        <p class="parrafoCita" id="maquina-escribir4"></p>
       </div>
-      <div class="row">
-        <div class="col-lg-12 containerCita">
-          <p class="parrafoCita" id="maquina-escribir4"></p>
-        </div>
-        <div class="col-lg-12">
-          <p class="text-center personaCita">— KRISTIAN IGARAVIDEZ, LEY RUBENSTEIN</p>
-        </div>
-      </div>
-      <div class="hr2">
-        <hr class="hrEdit">
+      <div class="col-lg-12">
+        <p class="text-center personaCita">— KRISTIAN IGARAVIDEZ, LEY RUBENSTEIN</p>
       </div>
     </div>
+    <div class="hr2">
+      <hr class="hrEdit">
+    </div>
+  </div>
+  
+FIN CITA
+  -->
 
   <div class="c">
-    <div class="container container__Contact" id="contacto">
+    <div class="container container__Contact px-4 px-lg-5" id="contacto">
       <div class="row gx-4 gx-lg-5 justify-content-start">
         <div class="col-lg-8 col-xl-6 text-center">
-          <h2 class="mt-0 titleContacto">Contactanos</h2>
+          <h2 class="mt-0 titleContacto">Contact Us</h2>
           <hr class="divider" />
-          <p class="text-muted mb-5 contacto_p">¿Querés dejarnos un mensaje? ¡Te vamos a responder lo antes posible!.
-            También podes mandarnos un email, llamarnos o hablarnos por Whatsapp
+          <p class="text-muted mb-5 contacto_p">¿Would you like to leave us a message? We'll get back to you as soon as possible! You can also send us an email, give us a call, or message us on WhatsApp.
         </div>
       </div>
       <div class="row gx-4 gx-lg-5 justify-content-start mb-5">
-        <div class="col-lg-6">
-          <form name="frmContacto" id="contactForm">
-            <form action="contact.php" method="POST">
+        <div class="col-lg-6">    
+            <form name="formPrincipal" action="contact.php" method="post" id="contactForm" >
               <div class="form-floating mb-3">
-                <input class="form-control" id="name" type="text" name="nombre" placeholder="Nombre y Apellido"
+                <input class="form-control" id="name" type="text" name="name" placeholder="Name"
                   required="" />
-                <label for="name">Nombre completo</label>
+                <label for="nombre">Full Name</label>
               </div>
 
               <div class="form-floating mb-3">
-                <input class="form-control" id="email" type="email" name="mail" placeholder="ejemplo@correo.com"
+                <input class="form-control" type="email" name="mail" placeholder="ejemplo@correo.com"
                   required="" />
-                <label for="mail">Email</label>
-
+                <label for="email">Email</label>
               </div>
 
               <div class="form-floating mb-3 ">
-                <input class="form-control" id="phone" type="tel" name="phone" placeholder="(123) 456-7890"
+                <input class="form-control"  type="tel" name="phone" placeholder="(123) 456-7890"
                   data-sb-validations="required" />
-                <label for="phone">Número de telefono</label>
+                <label for="celular">Phone Number</label>
               </div>
 
               <div class="form-floating mb-3">
-                <textarea class="form-control" id="message" type="text" name="message" placeholder="Mensaje"
+                <textarea class="form-control text-area" type="text" name="message" placeholder="Message"
                   required=""></textarea>
-                <label for="message">Mensaje</label>
+                <label for="mensaje">Message</label>
               </div>
 
-              <div class=" justify-content-center buttonContact"><button class="btn btn-primary" id="submitButton"
-                  type="submit">Enviar</button>
-              </div>
+              <div class=" justify-content-center"><button class="btn btn-primary" id="submitButton"
+                  type="submit" name="enviar">Send</button></div>
             </form>
         </div>
 
-        <div class="col-lg-6 col-md-6 col-xs-6 fotoContainer ">
+        <div class="col-lg-6 col-md-6 col-xs-6 fotoContainer">
           <img class="fotoContacto" src="recursos/contacto2.png" alt="foto-telefono-contacto" width="450px">
         </div>
-
       </div>
+
+
+      <!--
       <div class="row ">
         <div class="col-lg-5 col-md-12 col-xs-12 text-center mb-5 mb-lg-0 containerCelular">
           <img src="recursos/celular.gif" alt="telefono" width="50px">
           <div class="contactoNumero">
-            <a class="contactoNumero" target="_BLANK" href=""> +19545604310</a>
+            <a class="contactoNumero" target="_BLANK" href="https://wa.link/uoobpo"> +19545604310</a>
           </div>
         </div>
       </div>
+      -->
       <div class="row ">
         <div class="col-lg-5 col-md-12 col-xs-12 text-center mb-5 mb-lg-0 containerDireccion">
           <img class="mapGif" src="recursos/mapas.gif" width="40px" alt="mapa">
@@ -302,33 +304,43 @@
         </div>
       </div>                     
     </div>
-  </div>
-
+    </div>
 
   <footer>
     <div class="container containerFooter">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-xs-12 containerLogoFooter">
-          <img class="logoFooter" src="recursos/logo.png" alt="Logo CoreFusion">
-        </div> 
-      </div>
-      	<div class="row ">
-          <div class="Redes col-lg-12">         
-            <a  target="_blank" href=""><img  class="Redes__img-footer Redes__img-facebook"data-aos="zoom-in" data-aos-duration="1000" src="recursos/facebook.png"  width="40"  ></a>
-            <a target="_blank" href=""><img class="Redes__img-footer Redes__img-instagram" data-aos="zoom-in" data-aos-duration="1000"   src="recursos/instagram.png"  width="40"
-              alt="logo-sitio web"></a>
-              <a target="_blank" href="" ><img class="Redes__img-footer img-whatsapp" data-aos="zoom-in"data-aos-duration="1000" src="recursos/whatsapp.png" alt="Whatsapp" width="40"></a>
-            </div>                   
-        </div>                                
-          <div class="derechosReservados">
-            <p class="text-center"data-aos="zoom-in" data-aos-duration="1200">© 2024 All Rights Reserved | Powered by CoreFusion</p>
-          </div>   
-          <div class="creador">
-            <p class="text-center"data-aos="zoom-in"data-aos-duration="1300">Developed By Simón Etchegno</p>
+          <img class="logoFooter" src="recursos/logo_footer.jpeg" alt="Logo CoreFusion">
+        </div>  
+          <div class="Redes col-lg-12">   
+         <!--      
+             <a  target="_blank" href=""><img  class="Redes__img-footer Redes__img-facebook"data-aos="zoom-in" data-aos-duration="1000" src="recursos/facebook.png"  width="40"  ></a>
+             <a target="_blank" href=""><img class="Redes__img-footer Redes__img-instagram" data-aos="zoom-in" data-aos-duration="1000"   src="recursos/instagram.png"  width="40"
+               alt="logo-sitio web"></a>
+         -->        
+            <a target="_blank" href="" ><img class="Redes__img-footer img-whatsapp"  src="../recursos/whatsapp.png" alt="Whatsapp" width="40"></a>
+            <a target="_blank" href="" ><img class="Redes__img-footer img-whatsapp"  src="../recursos/linkedin.png" alt="Whatsapp" width="40"></a>   
+          </div>  
+                 
+          
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="derechosReservados">
+                <p class="text-center">© 2024 All Rights Reserved | Powered by CoreFusion</p>
+              </div>  
+            </div>
+              <div class="col-lg-12">
+                <div class="creador">
+                  <p class="text-center">Developed By DigitalCode</p>
+                </div> 
+              </div>    
           </div>
-          	        
-        </div>                      
+          
+        </div> 
+    </div>     
   </footer>
+
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
@@ -338,10 +350,8 @@
   <script>
     ScrollReveal({ reset: true });
   </script>
-  <script src="main.js"></script>
+  <script src="../main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
 </body>
-
 </html>
